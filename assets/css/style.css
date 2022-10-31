@@ -1,0 +1,125 @@
+header
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav
+{
+    width:50%;
+}
+
+#header-ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#header-li
+{
+    margin: 1%;
+    padding:1%;
+    width:50%;
+    color: aqua;
+    text-decoration: underline rgb(24, 139, 139);
+}
+
+.img-100-width, img
+{
+    width: 100%;
+}
+
+/* Used to make any text have a blue background */
+ .bluebackground
+{
+    background-color: aqua;
+}
+
+/* Changes an image into a container */
+.container
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Used to make text in bottom right of container image */
+.bottom-right
+{
+    position: absolute;
+    bottom: 16px;
+    right: 28px;
+    font-size: 28px;
+    background-color: aqua;
+    color: black;
+}
+
+.flex-container
+{
+    display: flex;
+    left: 20%;
+}
+
+.flex-container-left-ul
+{
+    list-style: none;
+    text-align: end;
+}
+
+.flex-container-left-li
+{
+    flex: 20%
+}
+
+#about-me-ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-li
+{
+    list-style: none;
+    border-left: 2px solid darkblue;
+    padding-left: 24px;
+}
+
+#contact-me-ul
+{
+    list-style: none;
+    border-left: 2px solid darkblue;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#contact-me-li
+{
+    margin: 1%;
+    padding:1%;
+    width:50%;
+    border-bottom: 2px solid darkblue;
+}
+
+#work-ul
+{
+    list-style: none;
+    border-left: 2px solid darkblue;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#work-li:hover
+{
+opacity: 0.9;
+}
+
+#work-image
+{
+    border: 5px solid aqua;
+}
